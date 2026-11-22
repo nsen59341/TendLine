@@ -50,15 +50,17 @@ export default function CtaModal({ isOpen, onClose, bookingLink }: CtaModalProps
             <div className="grid grid-cols-1 md:grid-cols-12 min-h-[500px]">
               {/* Left Side: Pitch (Visible only on desktop) */}
               <div className="hidden md:flex md:col-span-4 bg-[#1A1A1A] text-white p-8 flex-col justify-between border-r border-[#99775C]/20">
-                <div className="space-y-6">
-                  <div className="flex items-center space-x-2">
-                    <span className="font-mono text-[9px] tracking-widest text-[#99775C] uppercase font-bold">TendLine AI</span>
-                  </div>
+                <div className="space-y-5">
+                  <img
+                    src="/assets/aistudio/bg_1f33d0cf.jfif"
+                    alt="TendLine AI Growth Systems"
+                    className="w-full max-w-[220px] h-auto rounded-sm border border-[#99775C]/30 shadow-sm"
+                  />
                   <h3 className="font-sans text-xl font-black uppercase tracking-tight leading-none">
                     Pre-Qualifying Strategy Session
                   </h3>
                   <p className="text-xs text-[#EAE7DD]/80 leading-relaxed font-light">
-                    We only partner with 2 HVAC contractors per territory to ensure localized SEO and operational focus. Let's analyze your systems.
+                    We only partner with 2 businesses per industry category &amp; city territory to ensure localized SEO and pipeline focus. Let&apos;s analyze your lead systems.
                   </p>
 
                   <div className="space-y-4 pt-4">

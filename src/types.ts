@@ -56,7 +56,7 @@ export interface LeadData {
 }
 
 export type BlogCategory =
-  | "HVAC Automation"
+  | "Lead Management"
   | "AI Voice Agents"
   | "AI Chatbots"
   | "Business Automation"

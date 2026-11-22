@@ -58,7 +58,7 @@ export default function ResultsSection({ onCtaClick }: ResultsSectionProps) {
               5 Strategic Insights: <span className="font-serif italic text-[#99775C] lowercase">the science of AI ROI</span>
             </h2>
             <p className="text-xs sm:text-sm text-[#1A1A1A]/80 font-medium leading-relaxed">
-              Benchmark data from 1,200+ HVAC &amp; AC service contractors calibrated for India. Scannable findings in 15 seconds:
+              Benchmark data from 1,200+ service and lead-driven businesses calibrated for India. Scannable findings in 15 seconds:
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function ResultsSection({ onCtaClick }: ResultsSectionProps) {
               <div className="flex space-x-2.5 items-center">
                 <AlertCircle className="h-4 w-4 text-[#99775C] shrink-0" />
                 <p className="text-[11px] text-[#1A1A1A] leading-snug font-medium">
-                  Unanswered lines leak up to <strong className="font-black text-[#99775C]">₹10,20,000/year</strong>. Automated dispatch plugs this leak on day 1.
+                  Unanswered lines leak up to <strong className="font-black text-[#99775C]">₹13,26,780/year</strong> (modelled). Automated capture plugs this leak on day 1.
                 </p>
               </div>
             </div>

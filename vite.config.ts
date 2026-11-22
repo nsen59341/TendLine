@@ -75,9 +75,9 @@ function staticRouteSeoPlugin(): Plugin {
       const blogDir = path.join(distDir, 'blog');
       fs.mkdirSync(blogDir, {recursive: true});
       const blogListHtml = buildRouteHtml(baseHtml, {
-        title: 'Industry Insights | HVAC AI Automation, Voice Agents & Chatbots | TendLine',
+        title: 'Industry Insights | AI Lead Automation, Voice Agents & Chatbots | TendLine',
         description:
-          "Explore TendLine's Industry Insights on HVAC AI voice agents, emergency call capture, web lead chatbots, automated Google reviews, and predictive seasonal maintenance.",
+          "Explore TendLine's Industry Insights on AI voice agents, after-hours lead capture, web & WhatsApp chatbots, automated Google reviews, and predictive customer re-engagement.",
         canonicalPath: '/blog',
         ogType: 'website',
         jsonLd: {

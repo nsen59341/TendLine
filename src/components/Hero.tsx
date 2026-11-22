@@ -29,34 +29,34 @@ export default function Hero({ onCtaClick }: HeroProps) {
   }, [logs, simState]);
 
   const voiceSimulationSteps = [
-    { text: "📞 Inbound Call Detected on Main Business Line (11:42 PM Sunday)", duration: 1500, status: "inbound" },
-    { text: "🤖 TendLine Voice Agent: 'Apex Cooling & MEP Services. How can we help you tonight?'", duration: 1800, status: "qualifying" },
-    { text: "🗣️ Customer: 'Yes, help! Our server-room split AC tripped and water is leaking onto the racks!'", duration: 1800, status: "qualifying" },
-    { text: "🤖 TendLine Voice Agent: 'I understand this is a critical emergency. I am logging this for immediate dispatch. Confirming address: is this 42, Indiranagar 100 Feet Road, Bengaluru?'", duration: 2000, status: "qualifying" },
-    { text: "🗣️ Customer: 'Yes, that is correct! Please send someone fast!'", duration: 1200, status: "qualifying" },
-    { text: "🤖 TendLine Voice Agent: 'Got it. I have booked an emergency dispatch slot for you right now, and our on-call technician is being alerted. What is your direct mobile number?'", duration: 1800, status: "qualifying" },
-    { text: "🗣️ Customer: '+91 98450 19283. Thank you so much!'", duration: 1200, status: "qualifying" },
-    { text: "🤖 TendLine Voice Agent: 'Perfect. Our team is on the way, Rohan. Watch WhatsApp for a live tracker link. Have a safe night.'", duration: 1500, status: "qualifying" },
-    { text: "🔄 Webhook Triggered: Make.com CRM synchronization in progress...", duration: 1200, status: "crm_logging" },
-    { text: "🗄️ CRM Updated (Zoho CRM): New emergency ticket #9021-E created. Address: 42, Indiranagar 100 Ft Rd. Job Type: Critical Cooling Failure (₹20,400 est. ticket). Status: Urgently Dispatched.", duration: 1500, status: "crm_logging" },
-    { text: "📱 WhatsApp/SMS Sent to On-Call Tech: 'CRITICAL EMERGENCY: Rohan Sharma (+91 98450 19283) - Server-room AC breakdown at Indiranagar 100 Ft Rd. Tap link for full call summary.'", duration: 1500, status: "dispatched" },
-    { text: "🚀 System Status: Call captured, job booked, dispatcher alerted in 9.2 seconds. Total human time saved: 15 mins. Revenue leakage prevented: ₹20,400+", duration: 1000, status: "complete" }
+    { text: "📞 Inbound Call Detected on Main Business Line (10:42 PM Sunday)", duration: 1500, status: "inbound" },
+    { text: "🤖 TendLine Voice Agent: 'Apex Solutions India. How can we help you tonight?'", duration: 1800, status: "qualifying" },
+    { text: "🗣️ Prospect: 'Hi! We need an urgent consultation and quote for our Bengaluru office setup starting this week!'", duration: 1800, status: "qualifying" },
+    { text: "🤖 TendLine Voice Agent: 'I can help prioritize that right away. Confirming your location: is your office near Indiranagar 100 Feet Road, Bengaluru?'", duration: 2000, status: "qualifying" },
+    { text: "🗣️ Prospect: 'Yes, that is right! Can someone meet us tomorrow morning?'", duration: 1200, status: "qualifying" },
+    { text: "🤖 TendLine Voice Agent: 'Yes, I have reserved a priority 10 AM slot with our senior advisor and alerted the team. What is your direct mobile number?'", duration: 1800, status: "qualifying" },
+    { text: "🗣️ Prospect: '+91 98450 19283. Thank you so much!'", duration: 1200, status: "qualifying" },
+    { text: "🤖 TendLine Voice Agent: 'Perfect, Rohan. Watch WhatsApp for your instant booking confirmation and calendar link. Have a great night.'", duration: 1500, status: "qualifying" },
+    { text: "🔄 Webhook Triggered: Automated CRM synchronization in progress...", duration: 1200, status: "crm_logging" },
+    { text: "🗄️ CRM Updated (Zoho CRM): New qualified lead #9021-E created. Area: Indiranagar 100 Ft Rd. Requirement: Priority Consultation & Setup (₹2,800 est. ticket). Status: Booked.", duration: 1500, status: "crm_logging" },
+    { text: "📱 WhatsApp/SMS Sent to Lead Owner: 'NEW PRIORITY LEAD: Rohan Sharma (+91 98450 19283) - Office consultation at Indiranagar. Tap link for full call summary.'", duration: 1500, status: "dispatched" },
+    { text: "🚀 System Status: Call captured, lead qualified, team alerted in 9.2 seconds. Total manual time saved: 15 mins. Revenue leakage prevented: ₹2,800+", duration: 1000, status: "complete" }
   ];
 
   const chatSimulationSteps = [
-    { text: "💬 Web visitor lands on site at 10:15 PM seeking AC Service Quote", duration: 1200, status: "inbound" },
-    { text: "🤖 TendLine Web Assistant: 'Welcome to CoolBreeze HVAC! Need a quick quote or booking? I can help you right here in under 2 minutes.'", duration: 1500, status: "qualifying" },
-    { text: "🗣️ Customer: 'Looking to get my split AC serviced before summer. How much is a tune-up?'", duration: 1500, status: "qualifying" },
-    { text: "🤖 TendLine Web Assistant: 'Our Precision AC Jet-Wash Tune-up is a flat ₹1,100, including our 21-point safety & gas-pressure checklist. I can schedule a certified technician right now. What is your PIN code?'", duration: 1800, status: "qualifying" },
-    { text: "🗣️ Customer: 'PIN code is 560038'", duration: 1000, status: "qualifying" },
-    { text: "🤖 TendLine Web Assistant: 'Great, we serve your area daily! We have slots open tomorrow at 10 AM or Tuesday at 2 PM. Which works best for you, Amit?'", duration: 1800, status: "qualifying" },
-    { text: "🗣️ Customer: 'Tomorrow at 10 AM works perfectly.'", duration: 1200, status: "qualifying" },
+    { text: "💬 Web visitor lands on site at 10:15 PM seeking Service Quote", duration: 1200, status: "inbound" },
+    { text: "🤖 TendLine Web Assistant: 'Welcome! Looking for a quick quote or consultation? I can help you right here in under 2 minutes.'", duration: 1500, status: "qualifying" },
+    { text: "🗣️ Prospect: 'Yes, looking to book an initial visit and service package. How much does it cost?'", duration: 1500, status: "qualifying" },
+    { text: "🤖 TendLine Web Assistant: 'Our starter inspection & service visit is ₹999, and I can schedule a specialist for you right now. What is your PIN code?'", duration: 1800, status: "qualifying" },
+    { text: "🗣️ Prospect: 'PIN code is 560038'", duration: 1000, status: "qualifying" },
+    { text: "🤖 TendLine Web Assistant: 'Great, we serve your city daily! We have slots open tomorrow at 10 AM or Tuesday at 2 PM. Which works best for you, Amit?'", duration: 1800, status: "qualifying" },
+    { text: "🗣️ Prospect: 'Tomorrow at 10 AM works perfectly.'", duration: 1200, status: "qualifying" },
     { text: "🤖 TendLine Web Assistant: 'Reserved! What is your WhatsApp/mobile number so I can send your booking confirmation?'", duration: 1500, status: "qualifying" },
-    { text: "🗣️ Customer: '+91 98201 44210'", duration: 1000, status: "qualifying" },
-    { text: "🤖 TendLine Web Assistant: 'Got it, Amit. Your booking is confirmed for tomorrow at 10:00 AM. Technician Vikram will arrive between 10:00 AM and 12:00 PM.'", duration: 1500, status: "qualifying" },
-    { text: "🔄 API Sync (LeadSquared): Booking synced. Assigned Tech: Vikram. Notes: Split AC Pre-Summer Tune-up. Mobile: +91 98201 44210.", duration: 1200, status: "crm_logging" },
-    { text: "📱 WhatsApp & SMS confirmation dispatched automatically to customer.", duration: 1200, status: "dispatched" },
-    { text: "🚀 System Status: Website lead successfully converted to booked job in 12.4 seconds with zero manual office labor.", duration: 1000, status: "complete" }
+    { text: "🗣️ Prospect: '+91 98201 44210'", duration: 1000, status: "qualifying" },
+    { text: "🤖 TendLine Web Assistant: 'Got it, Amit. Your appointment is confirmed for tomorrow at 10:00 AM with our specialist Vikram.'", duration: 1500, status: "qualifying" },
+    { text: "🔄 API Sync (LeadSquared): Booking synced. Assigned Rep: Vikram. Notes: Starter Audit & Consultation. Mobile: +91 98201 44210.", duration: 1200, status: "crm_logging" },
+    { text: "📱 WhatsApp & SMS confirmation dispatched automatically to prospect.", duration: 1200, status: "dispatched" },
+    { text: "🚀 System Status: Website lead successfully converted to booked appointment in 12.4 seconds with zero manual office labor.", duration: 1000, status: "complete" }
   ];
 
   const runSimulation = async () => {
@@ -118,24 +118,24 @@ export default function Hero({ onCtaClick }: HeroProps) {
             <div className="inline-flex items-center space-x-2 bg-[#EAE7DD] border border-[#99775C]/30 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-none">
               <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-[#99775C] animate-pulse" />
               <span className="font-mono text-[8px] sm:text-[9px] uppercase tracking-widest text-[#99775C] font-bold">
-                HVAC Contractor AI Infrastructure
+                AI Lead Capture &amp; Growth Infrastructure
               </span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-[50px] xl:text-[58px] lg:leading-[1.0] font-serif italic text-[#1A1A1A]">
-              Stop Letting Missed Calls
+              Stop Letting Missed Leads
               <span className="text-[#99775C] not-italic font-sans font-black uppercase tracking-tighter block mt-1 sm:mt-2 text-3xl sm:text-5xl lg:text-[52px] xl:text-[60px]">
-                Book Your HVAC Competitors.
+                Book Your Competitors.
               </span>
             </h1>
 
             {/* Problem & Agitate - Scannable & Trimmed */}
             <div className="space-y-2 text-[#1A1A1A]/90">
               <p className="text-xs sm:text-base lg:text-lg font-medium leading-snug text-[#99775C]">
-                HVAC Contractors <span className="font-black text-[#1A1A1A]">miss 35% to 50% of inbound calls</span> during peak summer heatwaves, losing <span className="font-black text-[#1A1A1A]">₹3,000–₹24,000+ per missed lead</span>.
+                Indian Businesses <span className="font-black text-[#1A1A1A]">miss 30% to 62% of inbound enquiries</span> during busy hours, losing <span className="font-black text-[#1A1A1A]">₹1,200–₹6,000+ per missed lead</span>.
               </p>
               <p className="text-xs sm:text-sm font-semibold text-[#1A1A1A] leading-relaxed border-l-2 border-[#99775C] pl-3 py-1 bg-[#99775C]/5">
-                <strong className="text-[#99775C] uppercase tracking-wider text-[10px] sm:text-xs block mb-0.5">The Solution:</strong> 24/7 AI Voice &amp; Web/WhatsApp Chat dispatch agents built exclusively for Indian HVAC Contractors. Integrates directly with Zoho CRM, LeadSquared &amp; HubSpot to answer calls, qualify AC emergencies, and book jobs on autopilot.
+                <strong className="text-[#99775C] uppercase tracking-wider text-[10px] sm:text-xs block mb-0.5">The Solution:</strong> 24/7 AI Voice &amp; Web/WhatsApp Chat agents built for Indian business owners who generate and manage leads. Integrates directly with Zoho CRM, LeadSquared &amp; HubSpot to answer enquiries, qualify buyers, and book appointments on autopilot.
               </p>
             </div>
 
@@ -254,12 +254,12 @@ export default function Hero({ onCtaClick }: HeroProps) {
                       </div>
                       <div className="space-y-0.5 sm:space-y-1">
                         <p className="font-bold text-white uppercase text-[10px] sm:text-xs tracking-widest">
-                          Ready for Dispatch Simulation
+                          Ready for Lead Capture Simulation
                         </p>
                         <p className="text-[8px] sm:text-[10px] text-white/60 max-w-xs mx-auto uppercase tracking-wide px-2">
                           {simType === "voice"
-                            ? "Simulate a late-night HVAC emergency call answered instantly by a high-fidelity TendLine voice agent."
-                            : "Simulate a Sunday afternoon web booking form routing immediately to your operational schedules."}
+                            ? "Simulate an after-hours high-intent lead call answered instantly by a high-fidelity TendLine voice agent."
+                            : "Simulate a Sunday night website enquiry qualifying and booking directly into your CRM calendar."}
                         </p>
                       </div>
                       <button

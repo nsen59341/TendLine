@@ -49,19 +49,13 @@ export default function Navbar({ onCtaClick }: NavbarProps) {
           {/* Logo & Navigation Group */}
           <div className="flex items-center space-x-8 xl:space-x-12 min-w-0">
             {/* Logo Brand Area */}
-            <div className="flex items-center space-x-2 shrink-0">
-              <AppLink href="/" className="flex items-center space-x-2 group">
-                <div className="h-8 w-8 bg-[#99775C] flex items-center justify-center rounded-xs transition-transform duration-300 group-hover:scale-105 shrink-0">
-                  <span className="font-sans font-black text-[#EAE7DD] text-sm tracking-tighter">TL</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-sans font-black text-xl tracking-tighter uppercase text-[#1A1A1A] group-hover:text-[#99775C] transition-colors leading-none whitespace-nowrap">
-                    TendLine
-                  </span>
-                  <span className="font-mono text-[8px] uppercase tracking-widest text-[#99775C] leading-none mt-1 whitespace-nowrap">
-                    AI Growth Systems
-                  </span>
-                </div>
+            <div className="flex items-center shrink-0">
+              <AppLink href="/" className="flex items-center group" ariaLabel="TendLine Home">
+                <img
+                  src="/assets/aistudio/Extract_logo_image_from_here_202609011956_bd906bf9.jpeg"
+                  alt="TendLine AI Growth Systems"
+                  className="h-11 sm:h-12 w-auto object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-[1.02]"
+                />
               </AppLink>
             </div>
 

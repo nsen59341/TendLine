@@ -9,101 +9,101 @@ export const insights: IndustryInsight[] = [
   {
     id: 1,
     articleSlug: "ai-voice-agents-hvac",
-    title: "AI Voice Agents Eliminate Inbound HVAC Call Leakage",
-    source: "1,200+ HVAC Contractor Benchmark Study",
-    finding: "HVAC and AC contractors miss 35–50% of inbound calls during peak summer heatwaves and monsoon surges. 24/7 AI Voice Assistants answer every call and recover ₹68,000–₹1,53,000/mo in lost AC & cooling jobs.",
-    whoApplied: "Precision Cooling Systems (15-Tech HVAC Field Study)",
+    title: "AI Voice Agents Eliminate Inbound Lead Leakage",
+    source: "BrightLocal Benchmark & TendLine India ROI Model",
+    finding: "Up to 62% of inbound small-business calls are missed on the first attempt, and 78% of customers buy from the first responder. At 300–600 calls/mo (₹1,200–₹1,800 avg ticket), AI call capture models ₹25,920–₹1,10,565/mo in recovered revenue.",
+    whoApplied: "Indian Service & Multi-Location Lead Model (Base to Strong)",
     measuredImpact: [
-      "100% call answer rate during heatwave spikes",
-      "₹68,000–₹1,53,000/mo recovered HVAC revenue",
-      "+40–65% booked jobs within 60 days",
-      "4–8x ROI achieved in first 60 days"
+      "100% call answer rate during peak spikes",
+      "₹25,920–₹1,10,565/mo modelled extra revenue",
+      "~21 to 61 extra booked leads per month",
+      "Setup payback in 1–7 months (modelled)"
     ],
-    aiOpportunity: "Deploys 24/7 AI Voice agent on your primary phone lines. Qualifies residential and commercial AC callers, checks technician dispatch schedules, and books appointments directly into Zoho CRM, LeadSquared, or Google Calendar.",
+    aiOpportunity: "Deploys an AI Voice agent on your primary +91 business line. Answers in Hindi or English, qualifies the enquiry, area, and urgency, books directly into your CRM or Google Sheets, and sends an instant WhatsApp summary.",
     opportunityScore: {
-      impact: 92,
-      ease: 82,
-      overall: 89
+      impact: 90,
+      ease: 80,
+      overall: 87
     }
   },
   {
     id: 2,
     articleSlug: "hvac-emergency-call-capture",
-    title: "No-Cooling & Commercial AC Emergency Call Capture",
-    source: "HVAC Field Dispatch Data & Benchmark Study",
-    finding: "Growing HVAC contractors lose ₹4.25L–₹11.05L/yr on unanswered after-hours emergency calls. Capturing ₹15,300–₹27,200 emergency commercial AC, VRF, and chiller repair tickets transforms contractor profitability.",
-    whoApplied: "Regional HVAC & VRF Specialist Firm",
+    title: "WhatsApp & High-Intent After-Hours Lead Capture",
+    source: "India SMB WhatsApp & Voice Pricing Benchmark (2026)",
+    finding: "80% of Indian SMB owners manage enquiries over phone and WhatsApp, yet evening and directory leads sit unworked. Answering in seconds captures ₹1,200–₹6,000 bookings and annual plans at ₹12–₹27 per 3-min AI call.",
+    whoApplied: "Pan-India Owner-Run Businesses & Small Franchises",
     measuredImpact: [
-      "+₹15,30,000 annual revenue captured from phone lines",
-      "₹20,400 average HVAC emergency ticket size",
-      "384% first-quarter ROI recorded",
-      "0% missed-call rate during peak summer heatwaves"
+      "+₹3,11,040 to ₹13,26,780/yr modelled capture",
+      "₹1,200–₹1,800 base-to-strong avg ticket",
+      "₹4–₹8/min Indian voice AI run rate",
+      "0% missed-lead rate after office hours"
     ],
-    aiOpportunity: "Instant missed-call WhatsApp/SMS + AI voice callback workflow seals no-cooling and commercial AC breakdown jobs before clients call local competitors.",
+    aiOpportunity: "Instant missed-call WhatsApp recovery within 60 seconds + 24/7 WhatsApp Business AI assistant that qualifies area, need, and urgency before prospects dial your competitors.",
     opportunityScore: {
-      impact: 96,
-      ease: 86,
-      overall: 93
+      impact: 85,
+      ease: 90,
+      overall: 87
     }
   },
   {
     id: 3,
     articleSlug: "hvac-web-lead-capture",
-    title: "Rapid Web HVAC Lead Capture (Sub-2 Minute Response)",
-    source: "HVAC Lead Conversion Benchmark 2025",
-    finding: "AI web & WhatsApp chat slashes inquiry response times from 4+ hours to under 2 minutes. 78% of homeowners and facility managers hire the first HVAC contractor who responds when their AC is down.",
-    whoApplied: "AutoScale Cooling & HVAC Clients",
+    title: "Sub-Minute Web & WhatsApp Utility Automation",
+    source: "Meta India Rate Card & Lead Response Benchmark (2026)",
+    finding: "WhatsApp utility confirmations cost just ₹0.11–₹0.15 per message (~₹110–₹150 for 1,000 reminders before BSP fee & GST). Instant automated replies qualify buyers and share transparent price ranges before human follow-up.",
+    whoApplied: "AutoScale Lead-Driven Indian Businesses",
     measuredImpact: [
-      "Sub-2 minute response times (down from 4+ hrs)",
-      "+50% lead-to-booking conversion rate",
-      "42% of jobs booked after-hours via web & WhatsApp AI",
-      "Zero added dispatcher overhead required"
+      "Replies in seconds instead of hours",
+      "₹110–₹150 Meta fee per 1,000 reminders",
+      "5–7x lower cost via Utility vs Marketing templates",
+      "Zero added front-desk payroll required"
     ],
-    aiOpportunity: "Custom AI web agent answers HVAC FAQs, verifies local PIN code coverage, provides ballpark inspection estimates, and books CRM appointments on the spot.",
+    aiOpportunity: "Custom Web & WhatsApp assistant answers pricing/coverage FAQs, verifies PIN codes, shares UPI advance/booking links, and updates Zoho CRM, LeadSquared, or Google Sheets.",
     opportunityScore: {
-      impact: 82,
-      ease: 90,
-      overall: 84
+      impact: 75,
+      ease: 92,
+      overall: 80
     }
   },
   {
     id: 4,
     articleSlug: "automated-google-reviews",
-    title: "Automated Google Reviews & Estimate Re-engagement",
-    source: "Local SEO & HVAC Contractor Study",
-    finding: "Automated post-job review sequences boost Google ratings to 4.8+ stars while automatic 48-hour VRF and AC installation estimate re-engagement captures outstanding quotes.",
-    whoApplied: "Apex Cooling Systems & HVAC Field Service Network",
+    title: "Automated Google Reviews & Quote Re-engagement",
+    source: "India Local SEO & Estimate Follow-Up Model",
+    finding: "Sending a Google review link on WhatsApp after every closed job builds 20–30+ fresh reviews monthly, while 48-hour WhatsApp and 72-hour voice follow-ups recover unsigned quotations.",
+    whoApplied: "Metro & Tier-2 Local Service Businesses",
     measuredImpact: [
-      "+75% new Google reviews in 90 days",
-      "4.8 star average Google Map Pack rating",
-      "+15% revenue from installation quote follow-ups",
-      "100% automated hands-free workflow"
+      "20–30+ new monthly Google reviews target",
+      "Consistent Google Map Pack profile trust",
+      "48h WhatsApp + 72h voice quote follow-ups",
+      "Instant owner alert on negative feedback"
     ],
-    aiOpportunity: "Automates post-service WhatsApp & SMS review requests and multi-touch 48-hour AC/VRF installation estimate follow-ups without manual office staff intervention.",
+    aiOpportunity: "Automates post-completion WhatsApp review requests (with 48h follow-up) and multi-stage quote recovery workflows triggered directly from CRM status.",
     opportunityScore: {
-      impact: 78,
-      ease: 95,
-      overall: 83
+      impact: 72,
+      ease: 92,
+      overall: 78
     }
   },
   {
     id: 5,
     articleSlug: "predictive-hvac-maintenance",
-    title: "Predictive Off-Peak Seasonal Maintenance Outreach",
-    source: "HVAC Industry Benchmark Report 2026",
-    finding: "Predictive maintenance outreach linked to weather shifts and equipment age prevents off-season monsoon and winter revenue dips for HVAC and AMC contractors.",
-    whoApplied: "Pan-India HVAC & Commercial Cooling Service Network",
+    title: "Opt-In Renewal & Off-Peak Reactivation Engine",
+    source: "India Recurring Contract & Retention Model (2026)",
+    finding: "Reaching 500 opted-in past clients costs ~₹430 in Meta fees. With 100 active annual plans/retainers at ₹2,500 each (₹2,50,000/yr recurring), protecting every 10% of renewal rate saves ₹25,000/year.",
+    whoApplied: "Recurring Service & Retainer Businesses in India",
     measuredImpact: [
-      "25–35% reduction in off-season revenue dips",
-      "3–5x higher conversion than blast emails",
+      "₹2,50,000/yr per 100 annual plans (at ₹2,500)",
+      "~₹430 Meta fee to message 500 past buyers",
       "₹0 additional advertising spend required",
-      "Annual Maintenance Contracts (AMC) locked in early"
+      "30, 15 & 7-day reminders with UPI link"
     ],
-    aiOpportunity: "Monitors CRM equipment age and local city weather forecasts to auto-trigger personalized WhatsApp & SMS AC/HVAC tune-up reminders with 1-click booking.",
+    aiOpportunity: "DPDP-compliant opt-in campaigns triggered by renewal expiry dates, seasons, and festivals with 30/15/7-day WhatsApp reminders, UPI payment links, and 3-day post-expiry voice follow-ups.",
     opportunityScore: {
-      impact: 72,
-      ease: 90,
-      overall: 78
+      impact: 85,
+      ease: 80,
+      overall: 84
     }
   }
 ];
@@ -112,183 +112,182 @@ export const failureScenarios: FailureScenario[] = [
   {
     id: 1,
     category: "Acquisition",
-    scenario: "HVAC technician is on a rooftop site install and misses an inbound AC breakdown call — the client immediately calls a competitor and books a ₹10,200 commercial/multi-split repair.",
-    solution: "A 24/7 AI Voice Agent (Retell/Vapi) answers immediately, qualifies cooling urgency, books the diagnostic visit into Zoho CRM/LeadSquared, and confirms via WhatsApp.",
+    scenario: "You or your team are busy with an existing client and miss an inbound enquiry call — the prospect immediately calls the next number on Google or Justdial (₹1,200–₹1,800+ job lost).",
+    solution: "A 24/7 AI Voice Agent answers in Hindi or English, qualifies need, area, and urgency, books the slot, and sends you a WhatsApp summary.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 408000
+    annualLeakEstimate: 180000
   },
   {
     id: 2,
     category: "Acquisition",
-    scenario: "A homeowner or clinic whose AC unit failed at 9pm browses your website, finds no interactive chat or booking, and leaves to call a competitor offering '24/7 Dispatch'.",
-    solution: "A custom HVAC Web AI Chatbot answers emergency cooling FAQs and secures booking and contact details on the spot.",
+    scenario: "A prospect taps WhatsApp or visits your site at 11pm, gets no reply until the next morning, and books with a faster competitor overnight.",
+    solution: "A Web & WhatsApp AI Assistant replies in seconds, asks about location and requirement, shares typical price ranges, and offers next-day slots.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 187000
+    annualLeakEstimate: 96000
   },
   {
     id: 3,
     category: "Acquisition",
-    scenario: "A ₹80,750 VRF / multi-split AC installation estimate is sent, the client goes silent, and the owner forgets to follow up during summer rush. The high-ticket job is lost.",
-    solution: "Make.com workflow triggers multi-stage estimate follow-ups: automated WhatsApp & SMS in 48h, email AMC/EMI options in 72h, and an AI voice agent check-in.",
+    scenario: "A quotation or proposal (₹6,000–₹45,000+) is sent, the client goes silent, and your team forgets to follow up during busy weeks.",
+    solution: "Automated estimate follow-up triggers a WhatsApp check-in after 48 hours and an AI voice follow-up call after 72 hours if there is no reply.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 382500
+    annualLeakEstimate: 216000
   },
   {
     id: 4,
     category: "Acquisition",
-    scenario: "Peak May–June summer heatwave overwhelms your office coordinator; 40% of inbound AC calls go unanswered and callers never receive a timely call-back.",
-    solution: "Instant overflow voice agents take over when lines are busy, booking routine AC servicing and routing no-cooling emergencies to active field technicians.",
+    scenario: "Peak seasonal or campaign rush overwhelms a 1- or 2-person office, leaving 30–40% of inbound calls unanswered.",
+    solution: "AI Voice overflow handles concurrent calls, books against real calendar capacity, and escalates urgent requests to your on-call team member.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 493000
+    annualLeakEstimate: 264000
   },
   {
     id: 5,
     category: "Experience",
-    scenario: "Client calls at 11pm with a dead AC or commercial server-room cooling breakdown, hits no answer, and immediately calls a local competitor with '24/7 Emergency AC Service' in their ad.",
-    solution: "An after-hours HVAC emergency triage agent answers 24/7, screens for true emergency vs. routine inquiry, and alerts the on-call tech via WhatsApp/SMS summary.",
+    scenario: "A buyer calls after office hours with an urgent requirement, hits no answer, and immediately calls a competitor.",
+    solution: "After-hours emergency triage on voice and WhatsApp classifies urgency, collects full address and landmark, and alerts your on-call lead.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 442000
+    annualLeakEstimate: 192000
   },
   {
     id: 6,
     category: "Experience",
-    scenario: "An AC or VRF install is successfully completed, but the tech forgets to ask for a review. Your Google Map Pack rating stays dormant while competitors pull ahead.",
-    solution: "Zoho CRM / LeadSquared integration: job completion triggers a WhatsApp & SMS review request with a direct Google Business link within 1 hour.",
+    scenario: "A job or service is completed well, but nobody asks for a Google review, leaving your Google Maps rating flat while rivals climb.",
+    solution: "CRM-triggered WhatsApp review link sent after job closure, one polite follow-up after 48 hours, and an owner alert if any complaint comes back.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 153000
+    annualLeakEstimate: 84000
   },
   {
     id: 7,
     category: "Experience",
-    scenario: "A prospective client submits a website or Justdial enquiry for split/cassette AC installation but waits 4+ hours for a response, booking with another dealer in the meantime.",
-    solution: "Instant AI reply + webhook alerting the HVAC coordinator via WhatsApp/SMS with one-click tap to call back, dropping response time under 120 seconds.",
-    deliveryModel: "DFY",
-    annualLeakEstimate: 221000
+    scenario: "Directory leads (Justdial, Sulekha, IndiaMART) arrive by call or email and are returned hours later after competitors already closed them.",
+    solution: "Instant lead webhook catches each directory enquiry and triggers an AI voice call or WhatsApp message within 60 seconds, then logs the outcome.",
+    deliveryModel: "DWY",
+    annualLeakEstimate: 144000
   },
   {
     id: 8,
     category: "Experience",
-    scenario: "You have no system for Annual Maintenance Contract (AMC) renewals and upsells. High-value AC installation customers are never re-engaged for pre-summer servicing.",
-    solution: "Automated CRM workflow triggers scheduled personalized WhatsApp & SMS service reminders and AMC renewal offers 6 months post-installation.",
+    scenario: "Annual contracts, AMCs, or retainers (₹2,500–₹6,000/yr) expire unnoticed and customers renew with someone else.",
+    solution: "Automated renewal engine sends WhatsApp reminders at 30, 15, and 7 days before expiry with a UPI link, plus a voice call 3 days after expiry.",
     deliveryModel: "DWY",
-    annualLeakEstimate: 272000
+    annualLeakEstimate: 75000
   },
   {
     id: 9,
     category: "Efficiency",
-    scenario: "Your coordinator spends 3–4 hours a day on the phone answering basic AC servicing charges and PIN code coverage questions rather than optimizing technician routes.",
-    solution: "Deploy an interactive voice/web HVAC FAQ chatbot to handle service PIN codes, standard inspection charges, and general scheduling autonomously.",
+    scenario: "You or your office staff answer the same questions all day: service area, visit/consultation charge (₹249–₹299), timings, and what is included.",
+    solution: "WhatsApp and website bot states pricing ranges, coverage, and visit charges up front (with optional UPI advance link) and escalates only edge cases.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 204000
+    annualLeakEstimate: 72000
   },
   {
     id: 10,
     category: "Efficiency",
-    scenario: "An HVAC tech is dispatched without equipment context, arriving to find a legacy R-22/R-410A compressor or inverter PCB issue they weren't prepared for.",
-    solution: "AI Voice Agent transcribes caller equipment details (brand, tonnage, age, symptoms) and syncs them straight into CRM dispatch notes for the technician.",
+    scenario: "Team members receive messy voice notes missing floor, landmark, society/office rules, or exact customer requirements.",
+    solution: "AI captures a structured brief (issue, requirement, address, landmark, access notes, urgency) and sends it to your team with a Google Maps pin.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 136000
+    annualLeakEstimate: 60000
   },
   {
     id: 11,
     category: "Efficiency",
-    scenario: "Manual appointment reminders are forgotten, leading to a 15–20% no-show or locked-premises rate that wastes fuel, travel time, and technician field hours.",
-    solution: "CRM-linked WhatsApp & SMS confirmation sequence at booking, 24 hours prior, and when tech is en route, with one-click rescheduling.",
+    scenario: "Customers forget scheduled appointments and your team wastes travel time, fuel, and calendar slots on no-shows.",
+    solution: "Automated WhatsApp reminders 24 hours and 2 hours before the appointment, with a 1-tap reschedule link that updates your calendar.",
     deliveryModel: "DFY",
-    annualLeakEstimate: 238000
+    annualLeakEstimate: 90000
   },
   {
     id: 12,
     category: "Efficiency",
-    scenario: "You spend thousands of rupees every month on Google Ads, Justdial, and IndiaMART for 'AC Repair' but have zero visibility into which channels convert into completed jobs.",
-    solution: "Integrate custom source tracking on AI booking webhooks to compile a weekly automated lead-source ROI report delivered straight to your inbox.",
+    scenario: "You cannot see which lead channel (Justdial, Google, Meta Ads, referrals) actually produces paying customers.",
+    solution: "Source tracking logs every incoming lead and confirmed booking, sending a weekly ROI breakdown straight to your WhatsApp or email.",
     deliveryModel: "DWY",
-    annualLeakEstimate: 170000
+    annualLeakEstimate: 84000
   },
   {
     id: 13,
     category: "Growth",
-    scenario: "Your HVAC business relies 100% on passive word-of-mouth referrals. You have no predictable lead capture engine to fill tech schedules during monsoon and winter months.",
-    solution: "Connect an SEO-optimized web chat with Google Ads, IndiaMART, and Meta Lead webhooks for immediate automated 60-second follow-up systems.",
+    scenario: "Your business runs purely on referrals and has no automated repeat-booking or post-service follow-up system.",
+    solution: "Automatic service reminders by purchase date and category, plus a referral request sent automatically after every 5-star review.",
     deliveryModel: "DWY",
-    annualLeakEstimate: 552500
+    annualLeakEstimate: 240000
   },
   {
     id: 14,
     category: "Growth",
-    scenario: "You want to add 2 new field service teams to your HVAC operation but are paralyzed because your office coordinator cannot handle double the call volume.",
-    solution: "Integrate a scalable front-office AI systems stack that handles unlimited simultaneous calls and web/WhatsApp bookings without adding office headcount.",
+    scenario: "You want to add staff or expand to a new city zone, but all enquiries and scheduling still run from your personal phone.",
+    solution: "Shared WhatsApp Business number, AI voice agent, structured brief handoff, and simple owner dashboard so you scale without adding office staff.",
     deliveryModel: "Consulting",
-    annualLeakEstimate: 807500
+    annualLeakEstimate: 360000
   },
   {
     id: 15,
     category: "Growth",
-    scenario: "Off-peak months (monsoon/winter) trigger drastic revenue drops for your HVAC firm, leaving technicians underutilized and hurting monthly cash flow.",
-    solution: "Run automated, highly targeted AMC & recall campaigns that scan your CRM for aging AC/VRF systems and offer pre-season check-ups via WhatsApp & SMS.",
+    scenario: "Off-peak months hit monthly cash flow with zero proactive opt-in outreach to your existing customer database.",
+    solution: "Targeted, DPDP-compliant opt-in seasonal & festival campaigns sent directly to your past customer list at ~₹0.86/message Meta rate.",
     deliveryModel: "DWY",
-    annualLeakEstimate: 442000
+    annualLeakEstimate: 150000
   }
 ];
 
 export const offerTiers: OfferTier[] = [
   {
     id: 1,
-    title: "HVAC Call Capture Starter System",
-    tagline: "Stop losing incoming AC repair, installation, and AMC leads to missed calls and local competitors.",
+    title: "Call Capture Starter System",
+    tagline: "Stop losing incoming phone and WhatsApp enquiries while you and your team are busy with clients.",
     features: [
-      "24/7 AI Voice Agent (Retell AI / Vapi): Answers 100% of inbound calls in clear Indian English, qualifies cooling urgency, books directly into your CRM, and routes emergencies.",
-      "Instant Missed-Call WhatsApp & SMS Recovery (Make.com): Triggers automated follow-up within 60s of any missed call to lock in the customer.",
-      "Post-Service Review Automation (Make.com/Zapier): Sends automated WhatsApp & SMS review prompts within 1 hour of job completion to dominate Google Local Map Packs.",
-      "Full CRM Webhook Integration (Zoho CRM, LeadSquared, HubSpot, Freshsales, Google Calendar, etc.)"
+      "AI Voice Agent (+91 Number): Answers inbound calls in Hindi & English, qualifies need, area, and urgency, books slots, handles after-hours triage, and sends a WhatsApp summary to the owner.",
+      "Instant Missed-Call WhatsApp Recovery: Automatically sends a WhatsApp follow-up within 60 seconds of any unanswered call.",
+      "Post-Job Review Automation: Sends a Google review link on WhatsApp after job completion, with one polite follow-up after 48 hours."
     ],
     results: [
-      "Slashes missed HVAC calls by 90%+",
-      "Recovers ₹25,500–₹68,000/mo in leaked phone revenue",
-      "Secures a 4–8x ROI in under 60 days of deployment"
+      "Base-case model: ~₹25,920/mo extra revenue (Strong: ₹1,10,565/mo)",
+      "Net ₹11,820–₹15,820/mo after run cost (base case)",
+      "Setup payback in 3–7 months at 300+ calls/mo (1 mo in strong case)"
     ],
-    bestFor: "HVAC contractors or small teams (1-5 techs) looking to recover lost revenue from unanswered calls during busy summer seasons.",
-    delivery: "Project-based (Fully delivered and active in 2–3 weeks)"
+    bestFor: "Owner-run businesses (1–5 staff) losing calls during work. Works best at 300+ calls/month or ₹1,200+ average ticket value.",
+    delivery: "Project-based (2–3 weeks to go live)"
   },
   {
     id: 2,
-    title: "HVAC Lead Conversion Growth System",
-    tagline: "Maximize every web inquiry, Justdial/IndiaMART lead, and VRF estimate, converting traffic into booked jobs on autopilot.",
+    title: "Lead Conversion Growth System",
+    tagline: "Turn website visitors, Google/Justdial/IndiaMART enquiries, and open quotations into booked jobs on autopilot.",
     features: [
-      "Everything in the HVAC Call Capture Starter System",
-      "Website & WhatsApp HVAC AI Chatbot (Voiceflow / Chatling): Diagnostic FAQ responder, live estimate capture, and booking assistant that converts leads 24/7.",
-      "Installation & AMC Quote Follow-Up Automation: Multi-stage trigger sequence (WhatsApp + SMS + email + AI voice) to recover 5–15% of unsigned AC/VRF quotes.",
-      "Automated Dispatch & Reminder Sequences: Smart 24h & 2h WhatsApp/SMS reminder sequences that bring no-shows down below 5%.",
-      "Monthly HVAC AI Performance Analytics: Automatically compiles call volume, booking rates, and recovered revenue analytics straight to the owner."
+      "Everything in Tier 1 (Call Capture Starter System)",
+      "WhatsApp & Website AI Assistant: Shares price ranges, captures quotes, offers time slots, and sends UPI payment links for visit charges or advances.",
+      "Directory-Lead Auto-Callback: Catches new Justdial, Sulekha, or IndiaMART leads and triggers a voice call or WhatsApp within 60 seconds.",
+      "Estimate Follow-Up & Reminders: 48h WhatsApp + 72h voice follow-up on open quotes, plus 24h & 2h appointment reminders with 1-tap reschedule.",
+      "Monthly Performance Report: Calls handled, bookings, lead sources, and reviews delivered straight to the owner."
     ],
     results: [
-      "30–50% increase in lead-to-booking conversions",
-      "Recovers 5–15% of outstanding HVAC installation quotes",
-      "Brings booking no-show rates below 5% with zero manual work",
-      "Recovers ₹68,000–₹1,53,000/mo in additional revenue"
+      "First reply in seconds instead of hours across all lead sources",
+      "Every directory lead and unsigned estimate systematically followed up",
+      "Fewer missed appointments via 24h & 2h WhatsApp reminders",
+      "Clear monthly visibility into which lead channels actually convert"
     ],
-    bestFor: "Growing HVAC businesses (5-15 techs) with healthy inbound enquiries but high leak rates across the customer acquisition funnel.",
-    delivery: "Hybrid model (Full project build + 3-month strategic optimization retainer)"
+    bestFor: "Growing businesses (5–15 team members) getting enquiries from Google, Justdial, WhatsApp & ads but losing leads before booking.",
+    delivery: "Hybrid (Project build + 3-month optimization retainer)"
   },
   {
     id: 3,
-    title: "Full HVAC AI Growth Infrastructure",
-    tagline: "A completely autonomous HVAC front office operations engine designed to help you scale your field teams without adding overhead.",
+    title: "Full AI Growth Infrastructure",
+    tagline: "An autonomous front-office revenue, renewal, and lead management engine built to scale without adding office staff.",
     features: [
       "Everything in Tiers 1 & 2",
-      "Seasonal Maintenance & AMC Renewal Engine: Smart campaigns that target past customers based on city weather forecasts, system age, and contract renewal dates.",
-      "Full CRM & Coordinator Handoff: AI Voice agent collects equipment brand, tonnage, and diagnostic notes, populating your CRM and texting the active tech.",
-      "Custom HVAC AI Executive Dashboard: Real-time visibility into booked jobs, call logs, acquisition channels (Google Ads/IndiaMART/Justdial), and team utilization.",
-      "White-Glove Onboarding & 6-Month Strategic Retainer: Direct ongoing optimizations, script updates, integration adjustments, and monthly growth consulting."
+      "AMC & Repeat-Service Renewal Engine: Automated WhatsApp reminders at 30, 15, and 7 days before expiry with UPI payment links and 3-day post-expiry calls.",
+      "Seasonal Campaign Engine: Opt-in WhatsApp campaigns tied to seasons, festivals, and past purchase dates.",
+      "Full CRM & Team Handoff: Syncs with Zoho, LeadSquared, HubSpot, or Google Sheets and sends structured job briefs + Google Maps pins to staff on WhatsApp.",
+      "Custom Owner Dashboard & DPDP Consent Log: Tracks bookings, lead sources, renewals, and timestamped opt-ins, backed by a 6-month optimization retainer."
     ],
     results: [
-      "Unlocks ₹1,27,500–₹2,55,000/mo in additional revenue",
-      "Operates a highly synchronized, 100% automated HVAC front office",
-      "Eliminates manual CRM entries, forgotten quote follow-ups, and review collections",
-      "Allows the owner to focus completely on expanding field capacity and technician hiring"
+      "Protects recurring renewals (₹2,50,000/yr per 100 plans at ₹2,500)",
+      "Turns dormant past buyers into predictable off-peak bookings",
+      "Front office largely run by the system with human fallback for complex calls",
+      "Full owner visibility to scale teams without proportional office overhead"
     ],
-    bestFor: "Established HVAC contractors (10-30+ field teams) looking to optimize operations, secure city-wide market dominance, and expand capacity without proportional overhead.",
-    delivery: "Hybrid model (Full enterprise system build + 6-month white-glove retainer)"
+    bestFor: "Established businesses or small franchises (10–25 team members) with recurring clients scaling without adding office staff.",
+    delivery: "Hybrid (Project build + 6-month strategic retainer)"
   }
 ];
 
@@ -296,37 +295,37 @@ export const faqs: FaqItem[] = [
   {
     id: 1,
     category: "Implementation",
-    question: "Do we have to replace Zoho CRM, LeadSquared, or our current HVAC software?",
-    answer: "No. Our core philosophy is building custom integration layers, not replacing software. We integrate directly with your existing CRM and dispatch tools (such as Zoho CRM, LeadSquared, HubSpot, Freshsales, Tally/Google Sheets, or custom field-service portals) using secure APIs and webhooks. Your techs and coordinators keep using what they already know."
+    question: "Do we have to replace Zoho, Google Sheets, or our current CRM?",
+    answer: "No. We integrate directly with your existing CRM or lightweight tools—including Zoho CRM/FSM, LeadSquared, HubSpot, Freshsales, or Google Sheets—using secure webhooks and APIs. If you do not use a CRM yet, we can connect directly to Google Sheets or Zoho's free starter tier so your team gets organized instantly."
   },
   {
     id: 2,
     category: "Security",
-    question: "How secure is our customer data and dispatch system?",
-    answer: "We employ strict enterprise-grade security protocols. All integrations utilize secure API keys, HTTPS protocols, and end-to-end encryption. Your voice agents and chatbots run on isolated, compliant server environments. We never sell, store, or train AI models on your proprietary customer databases or dispatch logs."
+    question: "How do you handle DPDP compliance, WhatsApp opt-ins, and data security?",
+    answer: "Your WhatsApp Business Account always remains in your own business name and ownership. We build explicit opt-in capture into the first call or chat, store consent timestamps securely, handle STOP replies automatically, and route reminders through approved WhatsApp Utility templates—aligned with India's DPDP Rules and TRAI guidelines."
   },
   {
     id: 3,
     category: "ROI",
-    question: "How soon does an HVAC contractor in India see a return on this system?",
-    answer: "Most HVAC clients see a full financial return on their setup investment within 30 to 60 days. Because we target immediate revenue leaks—like missed inbound AC calls during summer heatwaves (averaging ₹3,000–₹24,000+ in value each) and forgotten VRF or commercial installation estimates—the system captures lost money from day one. Even a couple of captured commercial repairs or AMC contracts can pay for the system."
+    question: "How soon does an Indian business see a return on this system?",
+    answer: "Payback in India depends on call volume and average ticket size—measured in months, not days. In our modelled Tier 1 base case (300 calls/month at ₹1,200 average job value), recovering ~21.6 jobs adds ₹25,920/month in revenue, delivering full setup payback in 3–7 months. Higher-volume businesses (600+ calls/month at ₹1,800+ tickets) can achieve payback in the first month."
   },
   {
     id: 4,
     category: "Implementation",
-    question: "How much effort is required from our office coordinator or team during setup?",
-    answer: "Almost none. We deliver these systems as complete, white-glove, Done-For-You (DFY) solutions. Our team handles the scripts, HVAC prompt engineering, CRM/WhatsApp webhooks, and exhaustive edge-case testing. Your team is only involved for a brief discovery audit and a final 45-minute sign-off session to review the AI's tone and dispatch rules before we launch."
+    question: "Can we test the system with a low-risk pilot before committing to a full tier?",
+    answer: "Yes. We offer an optional 2-week Entry Pilot deploying a WhatsApp assistant and missed-call follow-up directly on your own WhatsApp Business number for 14 days, complete with a before-and-after report. If you continue to Tier 1, 100% of your pilot fee is credited toward your setup."
   },
   {
     id: 5,
     category: "Implementation",
-    question: "Will the AI voice agent sound robotic or struggle with Indian accents?",
-    answer: "Absolutely not. We use ultra-low latency conversational frameworks (Retell AI / Vapi) tuned specifically for Indian English accents, local PIN codes, and HVAC terminology. They respond in under 1 second, recognize technical terms (R-32, R-410A, inverter PCBs, VRF systems, chillers, compressors), match natural cadences, and handle interrupts gracefully. If a caller insists on speaking to a human, the AI transfers the call immediately with a transcribed summary."
+    question: "Will the AI voice agent handle Indian phone numbers, Hindi, and English accents?",
+    answer: "Yes. We deploy India-tested voice systems connected to +91 Indian numbers that support clear Indian English and Hindi out of the box (with regional languages added only after 20+ real-call quality tests). A 3-minute answered call typically costs ₹12–₹27 in usage, and complex or upset callers are transferred immediately to a human with a full summary."
   },
   {
     id: 6,
     category: "ROI",
-    question: "Why should an HVAC business hire TendLine instead of trying no-code templates?",
-    answer: "Patchwork templates break under peak summer pressure. Standard templates lack fail-safes, fail during CRM sync delays, and create duplicate customer records, causing technician dispatch nightmares. TendLine builds professional-grade, resilient enterprise growth infrastructure with built-in redundancy, custom API parsing, and ongoing optimization to ensure your AI works 24/7/365 without glitching."
+    question: "How are third-party voice and WhatsApp usage charges handled?",
+    answer: "Voice AI minutes (typically ₹4–₹8/min on Indian platforms) and Meta WhatsApp template charges (roughly ₹0.11–₹0.15 for utility reminders and ₹0.8631 for marketing messages, plus BSP fee) are billed transparently at actuals based on your real usage, separate from your custom implementation scope."
   }
 ];

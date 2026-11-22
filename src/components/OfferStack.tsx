@@ -34,7 +34,7 @@ export default function OfferStack({ onCtaClick }: OfferStackProps) {
             Vertical AI Systems Blueprint: <span className="font-serif italic text-[#99775C] lowercase">three integration tiers</span>
           </h2>
           <p className="text-sm sm:text-base text-[#99775C] font-medium leading-relaxed">
-            Every blueprint is custom-architected for your localized dispatch parameters. No basic templates, no unmonitored scripts. Select your operational tier.
+            Every blueprint is custom-architected for your business lead flow and sales calendar. No basic templates, no unmonitored scripts. Select your operational tier.
           </p>
         </motion.div>
 
@@ -146,8 +146,8 @@ export default function OfferStack({ onCtaClick }: OfferStackProps) {
                   {/* Target Audience Profile */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pb-2 text-[9px] font-mono uppercase tracking-wider text-[#99775C] border-b border-[#99775C]/15">
                     <div className="space-y-1">
-                      <span className="font-bold block tracking-widest text-[8px]">Ideal Fleet Size</span>
-                      <span className="text-[#1A1A1A] font-extrabold block truncate">{tier.bestFor.split("looking")[0].replace("HVAC,", "")}</span>
+                      <span className="font-bold block tracking-widest text-[8px]">Ideal Team Size</span>
+                      <span className="text-[#1A1A1A] font-extrabold block truncate">{tier.bestFor.split("looking")[0]}</span>
                     </div>
                     <div className="space-y-1">
                       <span className="font-bold block tracking-widest text-[8px]">Delivery Model</span>
@@ -191,16 +191,38 @@ export default function OfferStack({ onCtaClick }: OfferStackProps) {
           })}
         </motion.div>
 
+        {/* Optional 2-Week Entry Pilot Callout */}
+        <div className="mt-10 bg-[#1A1A1A] text-white rounded-none p-6 border border-[#99775C]/40 flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+          <div className="space-y-1.5">
+            <span className="font-mono text-[9px] uppercase tracking-widest text-[#99775C] font-bold block">
+              Optional Entry Pilot &bull; Low-Risk First Step
+            </span>
+            <h4 className="text-base sm:text-lg font-black uppercase tracking-tight">
+              2-Week WhatsApp &amp; Missed-Call Pilot
+            </h4>
+            <p className="text-xs text-[#EAE7DD]/80 leading-relaxed max-w-3xl">
+              Live on your own WhatsApp Business number for 14 days with a before-and-after performance report. 100% of your pilot fee is credited toward Tier 1 if you continue.
+            </p>
+          </div>
+          <button
+            onClick={onCtaClick}
+            className="bg-[#EAE7DD] hover:bg-white text-[#1A1A1A] px-5 py-3 text-xs font-black uppercase tracking-widest transition-colors whitespace-nowrap cursor-pointer shrink-0"
+            id="offers-pilot-cta"
+          >
+            Start 2-Week Pilot
+          </button>
+        </div>
+
         {/* Integration Footnote */}
-        <div className="mt-12 bg-white rounded-none p-5 border border-[#99775C]/20 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div className="mt-6 bg-white rounded-none p-5 border border-[#99775C]/20 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="flex items-center space-x-3">
             <div className="h-10 w-10 bg-[#EAE7DD] border border-[#99775C]/10 rounded-none flex items-center justify-center shrink-0">
               <ShieldCheck className="h-5 w-5 text-[#99775C]" />
             </div>
             <div>
-              <h4 className="text-xs font-bold text-[#1A1A1A] uppercase tracking-widest">Strict System Protection Pledge</h4>
+              <h4 className="text-xs font-bold text-[#1A1A1A] uppercase tracking-widest">Custom Scope &amp; System Protection Pledge</h4>
               <p className="text-[11px] text-[#99775C] font-medium leading-relaxed">
-                We do not integrate mock scripts or unstable beta plugins. All integrations are coded using strict error boundaries on robust Make/n8n environments.
+                Every blueprint is tailored to your call volume, CRM, and workflow requirements, running on redundant cloud automation environments with human-in-the-loop fallback.
               </p>
             </div>
           </div>
@@ -209,7 +231,7 @@ export default function OfferStack({ onCtaClick }: OfferStackProps) {
             className="underline underline-offset-4 font-mono font-bold uppercase text-[10px] tracking-widest text-[#99775C] hover:text-[#1A1A1A] whitespace-nowrap cursor-pointer shrink-0"
             id="offers-footnote-cta"
           >
-            Learn More About Our Tech Stack
+            Book a System Walkthrough
           </button>
         </div>
 

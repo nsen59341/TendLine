@@ -15,8 +15,7 @@ interface FooterProps {
 
 export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
   const currentYear = new Date().getFullYear();
-
-  const techStack = ["Voiceflow", "Vapi", "Retell AI", "Make.com", "n8n", "Bolt", "Lovable (AI coding)"];
+  const WHATSAPP_URL = "https://wa.me/919007145941";
 
   const footerLinks = [
     { label: "Industry Insights", href: "/#insights" },
@@ -43,23 +42,17 @@ export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
         >
           
           {/* Brand Col */}
-          <div className="md:col-span-4 space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="h-9 w-9 bg-[#EAE7DD] flex items-center justify-center rounded-none border border-[#99775C]/20">
-                <span className="font-sans font-black text-[#1A1A1A] text-lg">TL</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-sans font-black text-base uppercase tracking-widest text-white leading-none">
-                  TendLine
-                </span>
-                <span className="font-mono text-[8px] uppercase tracking-widest text-[#99775C] leading-none mt-1 font-bold">
-                  AI Growth Systems
-                </span>
-              </div>
-            </div>
+          <div className="md:col-span-5 space-y-4">
+            <AppLink href="/" className="inline-block group" ariaLabel="TendLine Home">
+              <img
+                src="/assets/aistudio/bg_1f33d0cf.jfif"
+                alt="TendLine AI Growth Systems"
+                className="w-full max-w-[260px] h-auto rounded-sm border border-[#99775C]/30 shadow-md transition-transform duration-300 group-hover:scale-[1.02]"
+              />
+            </AppLink>
             
             <p className="text-xs text-[#BCB6AF] leading-relaxed max-w-sm font-medium uppercase tracking-tight">
-              Premium B2B AI operational systems and 24/7 autonomous dispatch infrastructure designed exclusively for HVAC &amp; AC Contractors across India.
+              Premium B2B AI lead generation, lead management, and 24/7 autonomous booking infrastructure designed for Indian business owners.
             </p>
 
             <div className="flex items-center space-x-2 bg-[#EAE7DD]/10 border border-[#99775C]/20 p-2 rounded-none max-w-xs">
@@ -71,7 +64,7 @@ export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
           </div>
 
           {/* Quick Links */}
-          <div className="md:col-span-2 space-y-3.5">
+          <div className="md:col-span-3 space-y-3.5">
             <h5 className="font-mono text-[9px] text-white uppercase tracking-widest font-extrabold">
               Site Navigation
             </h5>
@@ -89,31 +82,10 @@ export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
             </ul>
           </div>
 
-          {/* Direct Technical Stack */}
-          <div className="md:col-span-3 space-y-3.5">
-            <h5 className="font-mono text-[9px] text-white uppercase tracking-widest font-extrabold">
-              Agency Tech Stack
-            </h5>
-            <div className="flex flex-wrap gap-1.5" aria-label="Technical Stack Integrations">
-              {techStack.map((tech) => (
-                <motion.span
-                  key={tech}
-                  whileHover={{ scale: 1.05, borderColor: "#99775C" }}
-                  className="font-mono text-[9px] bg-[#EAE7DD]/10 text-white px-2.5 py-1 rounded-none border border-[#99775C]/20 shrink-0 uppercase tracking-widest cursor-default"
-                >
-                  {tech}
-                </motion.span>
-              ))}
-            </div>
-            <p className="text-[9px] text-[#99775C] font-mono leading-relaxed uppercase font-bold tracking-wider">
-              Hardened, API-first integrations with failover redundancy. No brittle templates.
-            </p>
-          </div>
-
           {/* Core Contacts & Booking */}
-          <div className="md:col-span-3 space-y-4">
+          <div className="md:col-span-4 space-y-4">
             <h5 className="font-mono text-[9px] text-white uppercase tracking-widest font-extrabold">
-              Contact & Booking
+              Contact &amp; Booking
             </h5>
             
             <div className="space-y-2.5 text-xs text-[#A59F97] uppercase tracking-wider font-bold" aria-label="Contact Information">
@@ -123,24 +95,38 @@ export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-[#99775C] shrink-0" />
-                <span className="truncate">nsen59341@gmail.com</span>
+                <a href="mailto:nsen59341@gmail.com" className="truncate hover:text-white transition-colors">
+                  nsen59341@gmail.com
+                </a>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2 pt-1" aria-label="Social Profiles">
+            <div className="grid grid-cols-2 gap-2 pt-1" aria-label="Social Profiles">
               {SOCIAL_PROFILES.map((profile) => (
                 <a
                   key={profile.name}
                   href={profile.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-1 font-mono text-[10px] uppercase tracking-widest px-2.5 py-1.5 border border-[#99775C]/30 bg-[#EAE7DD]/5 text-[#EAE7DD] hover:border-[#99775C] hover:bg-[#99775C] hover:text-white transition-colors"
+                  className="inline-flex items-center justify-between space-x-1 font-mono text-[10px] uppercase tracking-widest px-3 py-2 border border-[#99775C]/30 bg-[#EAE7DD]/5 text-[#EAE7DD] hover:border-[#99775C] hover:bg-[#99775C] hover:text-white transition-colors"
                   aria-label={`TendLine ${profile.name}`}
                 >
                   <span>{profile.name}</span>
                   <ArrowUpRight className="h-3 w-3 shrink-0" />
                 </a>
               ))}
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-between space-x-1 font-mono text-[10px] uppercase tracking-widest px-3 py-2 border border-[#99775C]/30 bg-[#EAE7DD]/5 text-[#EAE7DD] hover:border-[#99775C] hover:bg-[#99775C] hover:text-white transition-colors"
+                aria-label="TendLine WhatsApp 9007145941"
+                title="WhatsApp: +91 9007145941"
+                id="footer-social-whatsapp-link"
+              >
+                <span>WhatsApp</span>
+                <ArrowUpRight className="h-3 w-3 shrink-0" />
+              </a>
             </div>
 
             <motion.button
@@ -176,10 +162,10 @@ export default function Footer({ onCtaClick, bookingLink }: FooterProps) {
         <div className="pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-[9px] text-[#8C857D] font-mono uppercase tracking-widest">
           <div className="space-y-1">
             <p>
-              &copy; {currentYear} TendLine. Built for Solopreneurs & SMB contractors. All rights reserved.
+              &copy; {currentYear} TendLine. Built for Indian Business Owners &amp; Growing Teams. All rights reserved.
             </p>
             <p className="text-[#6C655F]">
-              TendLine AI &bull; AI Growth Infrastructure &bull; Vertical: Home Services &bull; 2025&ndash;2026 &bull; Natasha Sen
+              TendLine AI &bull; AI Growth Infrastructure &bull; Lead Generation &amp; Management &bull; 2025&ndash;2026 &bull; Natasha Sen
             </p>
           </div>
 

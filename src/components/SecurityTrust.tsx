@@ -26,7 +26,7 @@ export default function SecurityTrust() {
     {
       icon: <Server className="h-5 w-5 text-brand-secondary" />,
       title: "24/7 Server Monitoring & Failover",
-      desc: "We build on enterprise-grade automated cloud environments. Real-time logging tracks API uptime, immediately triggering backup workflows on Make/n8n if your local CRM undergoes downtime.",
+      desc: "We build on enterprise-grade automated cloud environments. Real-time logging tracks API uptime, immediately triggering backup workflows if your local CRM undergoes downtime.",
     },
   ];
 
@@ -60,7 +60,7 @@ export default function SecurityTrust() {
 
             <div className="space-y-4 text-xs sm:text-sm text-[#99775C] font-medium leading-relaxed">
               <p>
-                A glitchy chatbot or duplicated CRM lead is an operational nightmare that delays dispatchers and frustrates customers. We build complete, high-resilience operational infrastructure, emphatically not standalone tools or simple widgets.
+                A glitchy chatbot or duplicated CRM lead is an operational nightmare that slows sales teams and frustrates buyers. We build complete, high-resilience lead infrastructure, emphatically not standalone tools or simple widgets.
               </p>
               <p>
                 Every line of code, prompt instruction, and API webhook we write is protected behind multi-layer validation loops. This ensures your customer records stay pristine, your schedules stay locked, and your voice lines respond in ultra-low latency.
@@ -143,7 +143,7 @@ export default function SecurityTrust() {
               TendLine Partnership Blueprint Standard
             </h4>
             <p className="text-xs text-[#EAE7DD] max-w-2xl font-light leading-relaxed">
-              We operate strictly within designated local territories. Once an AI Growth System is deployed in a city for a contractor, we do not build competitive pipelines for any other contractor in that immediate territory.
+              We operate strictly within designated local territories and industry niches. Once an AI Growth System is deployed for a business in a city, we do not build competing pipelines for rival businesses in that immediate category and territory.
             </p>
           </div>
           <div className="shrink-0 flex items-center space-x-2 bg-black px-4 py-2 rounded-none border border-[#99775C]/20">

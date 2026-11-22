@@ -42,7 +42,7 @@ export default function FaqSection({ onCtaClick }: FaqSectionProps) {
                 Addressing your critical <span className="font-serif italic text-[#99775C] lowercase font-normal">integration concerns.</span>
               </h2>
               <p className="text-sm text-[#99775C] font-medium leading-relaxed">
-                Before implementing AI into core operational lines, contractors must resolve questions regarding system reliability, team disruption, and concrete financial outcomes.
+                Before implementing AI into core lead channels, business owners must resolve questions regarding system reliability, team disruption, and concrete financial outcomes.
               </p>
             </div>
 
@@ -50,9 +50,9 @@ export default function FaqSection({ onCtaClick }: FaqSectionProps) {
               <h4 className="text-xs font-bold text-[#1A1A1A] uppercase tracking-widest">Unmatched Implementation Guarantee</h4>
               <ul className="space-y-2.5">
                 {[
-                  "Zero disruption to your current field tech workflows.",
+                  "Zero disruption to your current team & sales workflows.",
                   "Full white-glove setup including script writing & testing.",
-                  "Territory lockout guarantees protect local lead streams."
+                  "Territory & category lockout guarantees protect local lead streams."
                 ].map((item, i) => (
                   <li key={i} className="flex items-start space-x-2">
                     <CheckCircle className="h-4 w-4 text-[#99775C] shrink-0 mt-0.5" />

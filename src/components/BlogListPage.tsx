@@ -16,7 +16,7 @@ interface BlogListPageProps {
 
 const CATEGORIES: ("All" | BlogCategory)[] = [
   "All",
-  "HVAC Automation",
+  "Lead Management",
   "AI Voice Agents",
   "AI Chatbots",
   "Business Automation",
@@ -71,7 +71,7 @@ export default function BlogListPage({ onCtaClick }: BlogListPageProps) {
             Industry <span className="font-serif italic text-[#99775C] lowercase font-normal">Insights</span>
           </h1>
           <p className="text-sm sm:text-base text-[#1A1A1A]/80 leading-relaxed font-medium">
-            Practical guides for HVAC and home-service business owners on stopping missed-call revenue leakage, deploying AI voice agents and chatbots responsibly, and automating CRM follow-ups.
+            Practical guides for Indian business owners on stopping missed-lead leakage, deploying AI voice agents and WhatsApp/web chatbots responsibly, and automating CRM follow-ups.
           </p>
         </header>
 
@@ -173,7 +173,7 @@ export default function BlogListPage({ onCtaClick }: BlogListPageProps) {
               TendLine AI Systems
             </span>
             <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
-              Want these systems running in your HVAC business?
+              Want these lead systems running in your business?
             </h2>
             <p className="text-xs sm:text-sm text-[#EAE7DD]/80 leading-relaxed">
               Explore our AI Voice Agents, WhatsApp &amp; web chat, and automated CRM follow-up blueprints built for Zoho CRM, LeadSquared, and HubSpot.

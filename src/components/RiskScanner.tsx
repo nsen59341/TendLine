@@ -92,7 +92,7 @@ export default function RiskScanner({ onCtaClick }: RiskScannerProps) {
             How much revenue is your business <span className="font-serif italic text-[#99775C] lowercase">actively leaking?</span>
           </h2>
           <p className="text-sm sm:text-base text-[#99775C] font-medium leading-relaxed">
-            Unanswered phone calls, missed heatwave leads, and silent system replacement estimates bleed cash. Select the failure scenarios your HVAC business faces to scan your operational leakage profile.
+            Unanswered phone calls, slow enquiry replies, and forgotten quotations bleed cash. Select the failure scenarios your business faces to scan your lead leakage profile.
           </p>
         </motion.div>
 
@@ -198,7 +198,7 @@ export default function RiskScanner({ onCtaClick }: RiskScannerProps) {
             </div>
 
             <p className="text-[9px] text-[#99775C] font-mono leading-relaxed px-1 uppercase tracking-wider">
-              *Annual leakage estimations are calculated on an Indian metro &amp; tier-1/2 HVAC baseline with standard service logistics (₹2,125–₹20,400 ticket values, 15% booking decay, and local Google Maps SEO drop rates).
+              *Annual leakage estimations are modelled on an Indian metro &amp; tier-1/2 business baseline (₹800–₹6,000 ticket &amp; annual plan values, 30% missed-call baseline, and local Google Maps SEO drop rates).
             </p>
           </div>
 
@@ -211,7 +211,7 @@ export default function RiskScanner({ onCtaClick }: RiskScannerProps) {
                   Live Diagnostics
                 </span>
                 <h4 className="font-sans text-base font-black text-white uppercase tracking-widest leading-tight">
-                  Contractor Financial Leakage Profile
+                  Business Lead Leakage Profile
                 </h4>
               </div>
 
@@ -252,7 +252,7 @@ export default function RiskScanner({ onCtaClick }: RiskScannerProps) {
                 <div className="flex items-start space-x-2.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-green-600 animate-pulse mt-1.5 shrink-0" />
                   <p className="text-[11px] text-white/80 leading-relaxed uppercase tracking-wide">
-                    Leaving these leaks active drains more cash than the custom setup fee of a complete operational AI system within <span className="font-black text-white">less than 30 days</span>.
+                    Leaving these leaks active drains far more cash every quarter than deploying a <span className="font-black text-white">complete Tier 1 AI setup</span>.
                   </p>
                 </div>
 
